@@ -1,0 +1,41 @@
+body {
+	position: relative;
+	height: 100%;
+  width: 100%;
+  margin:0;
+}
+
+main {
+	position: relative;
+	width: 95%;
+	margin: 0 auto;
+}
+
+#floormap {
+	width: 976px;
+  height: 548px;
+  background: url('../images/second-floor-jbc.jpg') no-repeat;
+  background-size: cover;
+  margin: 30px auto 0 auto;
+}
+
+svg {
+	width: 100%;
+  height: auto;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width:auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+@media all and (max-width: 768px) {
+	#floormap {
+	    width: 700px;
+	    height: 393px;
+	}
+}
